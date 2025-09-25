@@ -141,11 +141,10 @@
    
 
   .container {
-    height: auto; /* que no quede fijo a 100vh */
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100vh; /* ocupa toda la pantalla */
+    flex-direction: column; /* por si quieres apilarlos */
+    justify-content: center; /* centra verticalmente */
+    align-items: center;     /* centra horizontalmente */
   }
 
   /* Huecos y topos más pequeños */
