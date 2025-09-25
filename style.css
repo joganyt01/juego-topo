@@ -150,8 +150,8 @@
 
   /* Huecos y topos más pequeños */
   .huecos, .huecotopo {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 140px;
     flex: 0 0 30%; /* que quepan 3 por fila */
     background-size: contain; /* que no se deformen */
   }
