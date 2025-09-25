@@ -125,3 +125,35 @@
         color: rgba(255, 255, 255, 0.7);
         text-shadow: 1px 1px 2px black;
     }
+
+    /* 📱 Ajustes para móviles */
+@media (max-width: 600px) {
+  .container {
+    height: auto; /* que no quede fijo a 100vh */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Huecos y topos más pequeños */
+  .huecos, .huecotopo {
+    width: 80px;
+    height: 80px;
+    flex: 0 0 30%; /* que quepan 3 por fila */
+    background-size: contain; /* que no se deformen */
+  }
+
+  /* Marcador (puntuación y fallos) */
+  #score, #fails {
+    font-size: 18px; /* más compacto */
+    margin: 5px;
+  }
+
+  /* Marca de agua */
+  .marca-agua {
+    font-size: 12px;
+    bottom: 5px;
+    right: 5px;
+  }
+}
