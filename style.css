@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     background: url("cesped.png") repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 100vh; /* mínimo toda la altura visible */
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     }
 
     .container {
-        background-image: url('cesped.png');
+        
         height: 100vh;
     }
 
