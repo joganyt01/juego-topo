@@ -141,10 +141,11 @@
    
 
   .container {
-    height: 100vh; /* ocupa toda la pantalla */
-    flex-direction: column; /* por si quieres apilarlos */
-    justify-content: center; /* centra verticalmente */
-    align-items: center;     /* centra horizontalmente */
+ display: flex;
+  flex-wrap: wrap; /* permite varias filas */
+  justify-content: center;
+  gap: 10px; /* espacio entre huecos */
+
   }
 
   /* Huecos y topos más pequeños */
