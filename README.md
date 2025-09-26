@@ -10,10 +10,10 @@ además de la jugabilidad tradicional, incluye **colombianadas y groserías** qu
 ## 📸 Capturas del juego
 
 ### 🖥️ Versión Desktop
-![Desktop](./desktop.PNG)
+![Desktop](./Desktop.PNG)
 
 ### 📱 Versión Móvil
-![Móvil](./movil.jpg)
+![Móvil](./Movil.jpg)
 
 ---
 
