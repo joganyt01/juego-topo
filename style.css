@@ -150,22 +150,22 @@
 
   /* Huecos y topos más pequeños */
   .huecos, .huecotopo {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     flex: 0 0 30%; /* que quepan 3 por fila */
     background-size: contain; /* que no se deformen */
   }
 
   /* Marcador (puntuación y fallos) */
   #score, #fails {
-    font-size: 18px; /* más compacto */
+    font-size: 13px; /* más compacto */
     margin: 5px;
   }
 
   /* Marca de agua */
   .marcaagua {
     font-size: 12px;
-    bottom: 30px;
+    bottom: 3px;
     right: 5px;
   }
 }
