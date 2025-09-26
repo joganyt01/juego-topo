@@ -158,7 +158,7 @@
 
   /* Marcador (puntuación y fallos) */
   #score, #fails {
-    font-size: 13px; /* más compacto */
+    font-size: 8px; /* más compacto */
     margin: 5px;
   }
 
