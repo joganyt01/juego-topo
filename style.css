@@ -158,10 +158,12 @@
 
   /* Marcador (puntuación y fallos) */
   #score, #fails {
-    font-size: 8px; /* más compacto */
+    font-size: 14px; /* más compacto */
     margin: 5px;
   }
-
+ .sf{
+    font-size: 14px;
+ }
   /* Marca de agua */
   .marcaagua {
     font-size: 12px;
