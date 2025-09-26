@@ -163,9 +163,9 @@
   }
 
   /* Marca de agua */
-  .marca-agua {
+  .marcaagua {
     font-size: 12px;
-    bottom: 5px;
+    bottom: 30px;
     right: 5px;
   }
 }
