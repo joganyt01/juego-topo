@@ -1,53 +1,50 @@
-# 🎮 Juego del Topo — Johanyt
+# 🕹️ Juego del Topo - Versión Colombiana 🇨🇴
 
-**Juego del Topo** es mi propia versión del clásico "Whac-a-Mole" pero con un giro divertido:  
-además de la jugabilidad tradicional, incluye **colombianadas y groserías** que lo hacen más **cómico y único**. 🇨🇴😂  
+Un divertido juego de "golpear al topo" desarrollado con **HTML, CSS y JavaScript**, pero con un toque especial: **colombianadas y groserías** que lo hacen más cómico y diferente.  
+Ideal para reírse un rato mientras pruebas tus reflejos.  
 
-👉 [Jugar ahora en GitHub Pages](https://joganyt01.github.io/juego-topo/)
+---
+
+## 🚀 Demo en Vivo
+👉 [Prueba el juego aquí](https://joganyt01.github.io/juego-topo/)
 
 ---
 
 ## 📸 Capturas del juego
 
-### 🖥️ Versión Desktop
-![Desktop](./Desktop.PNG)
-
-### 📱 Versión Móvil
-![Móvil](./Movil.jpg)
+<table>
+  <tr>
+    <td align="center"><b>Desktop</b></td>
+    <td align="center"><b>Móvil</b></td>
+  </tr>
+  <tr>
+    <td><img src="desktop.PNG" alt="Versión Desktop" width="400"></td>
+    <td><img src="movil.jpg" alt="Versión Móvil" width="200"></td>
+  </tr>
+</table>
 
 ---
 
 ## ✨ Características
 
-- Juego interactivo estilo "golpear al topo" 🛠️  
-- Contador de **puntuación** y **fallos** 📊  
-- **Sonidos graciosos y groserías colombianas** 🤣  
-- Diseño responsive: funciona en **PC y móvil** 📱💻  
-- Marca de agua personalizada con mi firma: **Johanyt** 🖋️  
-- Fondo de césped dinámico 🌱  
-
----
-
-## 🚀 Demo en Vivo
-
-👉 [Probar el juego aquí](https://joganyt01.github.io/juego-topo/)
-
----
-juego-topo/
-├─ index.html # Página principal
-├─ style.css # Estilos del juego
-├─ script.js # Lógica del juego
-├─ cesped.png # Fondo
-├─ topo.png # Topo clásico
-├─ sonidos/ # Carpeta con efectos de sonido
-└─ img/ # Imágenes adicionales
+- 🎯 Juego interactivo estilo *"Whac-a-Mole"*.  
+- ⚡️ Diferentes niveles de dificultad (el topo aparece más rápido o más lento).  
+- 📊 Contador de aciertos y fallos.  
+- 🎵 Música de fondo que arranca al primer clic.  
+- 😂 **Colombianadas y groserías** que aparecen durante el juego (humor local).  
+- 💾 El nivel seleccionado se guarda en Local Storage.  
+- 🎨 Animaciones con CSS para darle vida a los topos.  
 
 ---
 
 ## 🛠️ Requisitos
 
-- Navegador moderno (Chrome, Edge, Firefox, Safari)  
-- Conexión a internet para acceder al sitio  
+- Navegador moderno (Chrome, Edge, Firefox, Safari).  
+- Conexión a internet para acceder al sitio.  
+
+---
+
+## 📂 Estructura del proyecto
 
 ---
 
@@ -57,5 +54,4 @@ Desarrollado con ❤️ por **Johanyt**
 
 ---
 
-## 📂 Estructura del proyecto
 
