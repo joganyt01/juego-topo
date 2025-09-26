@@ -45,6 +45,14 @@ Ideal para reírse un rato mientras pruebas tus reflejos.
 ---
 
 ## 📂 Estructura del proyecto
+juego-topo/
+├── index.html # Página principal
+├── style.css # Estilos del juego
+├── script.js # Lógica del juego
+├── cesped.png # Fondo
+├── topo.png # Topo clásico
+├── sonidos/ # Carpeta con efectos de sonido
+└── img/ # Imágenes adicionales
 
 ---
 
