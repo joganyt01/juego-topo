@@ -1,173 +1,185 @@
   body {
-    margin: 0;
-    padding: 0;
-    background: url("cesped.png") repeat;
-    background-size: contain;
-    min-height: 100vh; /* mínimo toda la altura visible */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
- * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow: hidden;
-    }
+      margin: 0;
+      padding: 0;
+      background: url("cesped.png") repeat;
+      background-size: contain;
+      min-height: 100vh;
+      /* mínimo toda la altura visible */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
-    .container {
-        
-        height: 100vh;
-    }
-
-    .huecos {
-        height: 100px;
-        width: 100px;
-        background-image: url('hueco.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        flex: 0 0 26%;
-        height: 33%;
-        box-sizing: border-box;
-        align-items: center;
-        cursor: pointer;
-
-    }
-
-    /* Base para los huecos cuando muestran imagen */
-    .hueco.colombianada {
-        background-size: contain;
-        /* mantiene proporción */
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    /* Clases específicas de cada imagen */
-    .colombianada1 {
-        background-image: url("west.png");
-    }
-
-    .colombianada2 {
-        background-image: url("yamete\ kudasai.png");
-    }
-
-    .colombianada3 {
-        background-image: url("sapa\ hp.png");
-    }
-
-    .colombianada4 {
-        background-image: url("yo\ me\ voy.png");
-    }
-
-    .colombianada5 {
-        background-image: url("cachaco.png");
-    }
-
-    .colombianada6 {
-        background-image: url("gloria.png");
-    }
-
-
-    .colombianada8 {
-        background-image: url("enano.png");
-    }
-
-    .colombianada9 {
-        background-image: url("rodolfo.png");
-    }
-
-
-
-    .huecotopo {
-        height: 100px;
-        width: 100px;
-        background-image: url("hueco\ topo.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        flex: 0 0 26%;
-        height: 33%;
-        box-sizing: border-box;
-        align-items: center;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-    }
-
-
-    .display-flex {
-        display: flex;
-    }
-
-    .justifi-center {
-        justify-content: center;
-    }
-
-    .flex-column {
-        flex-direction: column;
-    }
-
-    .flex-wrap {
-        flex-wrap: wrap;
-    }
-
-    /* HUD arriba */
-    .scoreboard {
-        position: absolute;
-        top: -5px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        text-shadow: 2px 2px 4px black;
-    }
-
-    /* Marca de agua abajo a la derecha */
-    .marcaagua {
-        position: absolute;
-        bottom: 10px;
-        right: 460px;
-        font-size: 18px;
-        font-weight: bold;
-        font-family: cursive;
-        color: rgba(255, 255, 255, 0.7);
-        text-shadow: 1px 1px 2px black;
-    }
-
-    /* 📱 Ajustes para móviles */
-@media (max-width: 600px) {
-   
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow: hidden;
+  }
 
   .container {
- display: flex;
-  flex-wrap: wrap; /* permite varias filas */
-  justify-content: center;
-  gap: 10px; /* espacio entre huecos */
+
+      height: 100vh;
+  }
+
+  .huecos {
+      height: 100px;
+      width: 100px;
+      background-image: url('hueco.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex: 0 0 26%;
+      height: 33%;
+      box-sizing: border-box;
+      align-items: center;
+      cursor: pointer;
 
   }
 
-  /* Huecos y topos más pequeños */
-  .huecos, .huecotopo {
-    width: 180px;
-    height: 180px;
-    flex: 0 0 30%; /* que quepan 3 por fila */
-    background-size: contain; /* que no se deformen */
+  /* Base para los huecos cuando muestran imagen */
+  .hueco.colombianada {
+      background-size: contain;
+      /* mantiene proporción */
+      background-repeat: no-repeat;
+      background-position: center;
   }
 
-  /* Marcador (puntuación y fallos) */
-  #score, #fails {
-    font-size: 18px; /* más compacto */
-    margin: 5px;
+  /* Clases específicas de cada imagen */
+  .colombianada1 {
+      background-image: url("west.png");
   }
- .sf{
-    font-size: 14px;
- }
-  /* Marca de agua */
+
+  .colombianada2 {
+      background-image: url("yamete\ kudasai.png");
+  }
+
+  .colombianada3 {
+      background-image: url("sapa\ hp.png");
+  }
+
+  .colombianada4 {
+      background-image: url("yo\ me\ voy.png");
+  }
+
+  .colombianada5 {
+      background-image: url("cachaco.png");
+  }
+
+  .colombianada6 {
+      background-image: url("gloria.png");
+  }
+
+
+  .colombianada8 {
+      background-image: url("enano.png");
+  }
+
+  .colombianada9 {
+      background-image: url("rodolfo.png");
+  }
+
+
+
+  .huecotopo {
+      height: 100px;
+      width: 100px;
+      background-image: url("hueco\ topo.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex: 0 0 26%;
+      height: 33%;
+      box-sizing: border-box;
+      align-items: center;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+  }
+
+
+  .display-flex {
+      display: flex;
+  }
+
+  .justifi-center {
+      justify-content: center;
+  }
+
+  .flex-column {
+      flex-direction: column;
+  }
+
+  .flex-wrap {
+      flex-wrap: wrap;
+  }
+
+  /* HUD arriba */
+  .scoreboard {
+      position: absolute;
+      top: -5px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px black;
+  }
+
+  /* Marca de agua abajo a la derecha */
   .marcaagua {
-    font-size: 12px;
-    bottom: 3px;
-    right: 5px;
+      position: absolute;
+      bottom: 10px;
+      right: 460px;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: cursive;
+      color: rgba(255, 255, 255, 0.7);
+      text-shadow: 1px 1px 2px black;
   }
-}
+
+  /* 📱 Ajustes para móviles */
+  @media (max-width: 600px) {
+
+
+      .container {
+          display: flex;
+          flex-wrap: wrap;
+          /* permite varias filas */
+          justify-content: center;
+          gap: 10px;
+          /* espacio entre huecos */
+
+      }
+
+      /* Huecos y topos más pequeños */
+      .huecos,
+      .huecotopo {
+          width: 180px;
+          height: 180px;
+          flex: 0 0 30%;
+          /* que quepan 3 por fila */
+          background-size: contain;
+          /* que no se deformen */
+      }
+
+      /* Marcador (puntuación y fallos) */
+      #score,
+      #fails {
+          font-size: 18px;
+          /* más compacto */
+          margin-top: 5%;
+      }
+
+      .sf {
+          font-size: 14px;
+          margin-top: 5%;
+      }
+
+      /* Marca de agua */
+      .marcaagua {
+          font-size: 12px;
+          bottom: 3px;
+          right: 5px;
+      }
+  }
